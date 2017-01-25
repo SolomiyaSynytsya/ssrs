@@ -3,8 +3,10 @@
   <DataSet Name="DataSet1">
     <Query>
       <DataSourceReference>Adventure</DataSourceReference>
-      <CommandText>SELECT        TOP (20) FirstName, LastName
-FROM            Person.Person</CommandText>
+      <CommandText>SELECT        TOP (100) Person.Person.FirstName, Person.Person.LastName, Employee_1.JobTitle, Employee_1.BirthDate, Employee_1.HireDate, DATEPART(yyyy, Employee_1.HireDate) AS HireYear
+FROM            Person.Person INNER JOIN
+                         HumanResources.Employee AS Employee_1 ON Person.Person.BusinessEntityID = Employee_1.BusinessEntityID
+ORDER BY Person.Person.FirstName</CommandText>
     </Query>
     <Fields>
       <Field Name="FirstName">
@@ -14,6 +16,22 @@ FROM            Person.Person</CommandText>
       <Field Name="LastName">
         <DataField>LastName</DataField>
         <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="JobTitle">
+        <DataField>JobTitle</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BirthDate">
+        <DataField>BirthDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="HireYear">
+        <DataField>HireYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="HireDate">
+        <DataField>HireDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
       </Field>
     </Fields>
   </DataSet>

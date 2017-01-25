@@ -18,6 +18,10 @@
       <Name>1.rdl</Name>
       <FullPath>1.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>GrouppedEmployees.rdl</Name>
+      <FullPath>GrouppedEmployees.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
