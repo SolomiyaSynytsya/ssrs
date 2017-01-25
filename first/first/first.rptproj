@@ -6,11 +6,23 @@
       <Name>Adventure.rds</Name>
       <FullPath>Adventure.rds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>movies.rds</Name>
+      <FullPath>movies.rds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSets>
     <ProjectItem>
       <Name>People.rsd</Name>
       <FullPath>People.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>EmplWithJobAmmount.rsd</Name>
+      <FullPath>EmplWithJobAmmount.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Map.rsd</Name>
+      <FullPath>Map.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
@@ -21,6 +33,10 @@
     <ProjectItem>
       <Name>GrouppedEmployees.rdl</Name>
       <FullPath>GrouppedEmployees.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MoviesMap.rdl</Name>
+      <FullPath>MoviesMap.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
