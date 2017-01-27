@@ -10,19 +10,27 @@
       <Name>movies.rds</Name>
       <FullPath>movies.rds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Flats.rds</Name>
+      <FullPath>Flats.rds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSets>
-    <ProjectItem>
-      <Name>People.rsd</Name>
-      <FullPath>People.rsd</FullPath>
-    </ProjectItem>
     <ProjectItem>
       <Name>EmplWithJobAmmount.rsd</Name>
       <FullPath>EmplWithJobAmmount.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Map.rsd</Name>
-      <FullPath>Map.rsd</FullPath>
+      <Name>People.rsd</Name>
+      <FullPath>People.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Flats.rsd</Name>
+      <FullPath>Flats.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>movies.rsd</Name>
+      <FullPath>movies.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
@@ -37,6 +45,10 @@
     <ProjectItem>
       <Name>MoviesMap.rdl</Name>
       <FullPath>MoviesMap.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Flats.rdl</Name>
+      <FullPath>Flats.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
